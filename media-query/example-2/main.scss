@@ -1,0 +1,52 @@
+//sass --watch media-query/example-2/main.scss:media-query/example-2/main.css
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.cardLink {
+  display: block;
+  color: #666;
+  text-shadow: 0 2px 0 #efefef;
+  text-decoration: none;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  border-bottom: 1px solid #bbb;
+  position: relative;
+
+  &:before {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+
+  &_hearts {
+
+    &:before {
+      content: '1';
+    }
+  }
+
+  &_clubs {
+
+    &:before {
+      content: "2";
+    }
+  }
+
+  &_spades {
+
+    &:before {
+      content: "3";
+    }
+  }
+
+  &_diamonds {
+
+    &:before {
+      content: "4";
+    }
+  }
+}

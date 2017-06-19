@@ -1,0 +1,22 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+.wrapper {
+  font-size: 0;
+}
+.centerMy {
+  background-color: indigo;
+  color: #ebebeb;
+  font-size: 3rem;
+  text-transform: uppercase;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  align-items: center; /*по вертикали центр*/
+  justify-content: center; /*по горизонтали центр*/
+}
+.centerMyWrapper {
+  width: 25%;
+  display: inline-block;
+}

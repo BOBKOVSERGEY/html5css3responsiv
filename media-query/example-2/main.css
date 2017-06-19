@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.cardLink {
+  display: block;
+  color: #666;
+  text-shadow: 0 2px 0 #efefef;
+  text-decoration: none;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  border-bottom: 1px solid #bbb;
+  position: relative; }
+  .cardLink:before {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0; }
+  .cardLink_hearts:before {
+    content: '1'; }
+  .cardLink_clubs:before {
+    content: "2"; }
+  .cardLink_spades:before {
+    content: "3"; }
+  .cardLink_diamonds:before {
+    content: "4"; }
+
+/*# sourceMappingURL=main.css.map */
