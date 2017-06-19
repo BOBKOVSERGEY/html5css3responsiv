@@ -2,6 +2,32 @@ html {
   font-size: 10px;
   box-sizing: border-box;
 }
+
+/* menu
+=============*/
+.menuWrap {
+  background-color: indigo;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  min-height: 2.75rem;
+  display: flex;
+  align-items: center; /*по вертикали центр*/
+  padding: 0 1rem;
+}
+.listItem,
+.lastItem {
+  color: #ebebeb;
+  text-decoration: none;
+}
+.listItem {
+  margin-right: 1rem;
+}
+.lastItem {
+  margin-left: auto;
+}
+
+/* end menu
+=============*/
 .wrapper {
   font-size: 0;
 }
