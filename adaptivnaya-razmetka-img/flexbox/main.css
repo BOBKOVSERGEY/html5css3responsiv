@@ -3,6 +3,9 @@ html {
   box-sizing: border-box;
 }
 
+p {
+  font-size: 1.5rem;
+}
 /* menu
 =============*/
 .menuWrap {
@@ -28,6 +31,34 @@ html {
 
 /* end menu
 =============*/
+
+.inlineFlex {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  background-color: indigo;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #ddd;
+  font-size: 1.5rem;
+}
+
+.inlineFlexTwo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  background-color: burlywood;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #ddd;
+  font-size: 1.5rem;
+}
+
+
 .wrapper {
   font-size: 0;
 }
